@@ -1,0 +1,45 @@
+1) Yolov10s_license with paddle OCR
+
+Statistics:
+Total Frames Processed: 4080
+Processing Time: 303.61 seconds
+Average FPS: 13.44
+Total Vehicles Detected: 19150
+Total License Plates Read: 442
+Device Used: CUDA
+Performance Breakdown:
+YOLO Inference Time: 140.05s (46.1%)
+OCR Processing Time: 55.52s (18.3%)
+Average OCR Time: 13.06ms per plate
+Other Processing: 108.03s
+Processing Speed: 0.54x real-time
+----------------------------------------------------------------------
+Saving Results...
+----------------------------------------------------------------------
+âœ“ Results saved to: y10s.csv
+âœ“ Interpolated results saved to: y10s_interpolated.csv
+
+
+
+2) Yolov10s with easy OCR
+
+======================================================================
+Statistics:
+Total Frames Processed: 4080
+Processing Time: 301.17 seconds
+Average FPS: 13.55
+Total Vehicles Detected: 19150
+Total License Plates Read: 495
+Device Used: CUDA
+Performance Breakdown:
+YOLO Inference Time: 142.76s (47.4%)
+OCR Processing Time: 40.87s (13.6%)
+Average OCR Time: 9.61ms per plate
+Other Processing: 117.54s
+Processing Speed: 0.54x real-time
+----------------------------------------------------------------------
+Saving Results...
+----------------------------------------------------------------------
+âœ“ Results saved to: y10s_with_EasyOCR.csv
+âœ“ Interpolated results saved to: y10s_with_EasyOCR_interpolated.csv
+======================================================================
