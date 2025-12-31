@@ -344,10 +344,6 @@ python gui_launcher.py
 
 ### Multi-Camera GUI
 
-<p align="center">
-  <img src="docs/images/gui_multi.png" width="720"/>
-</p>
-
 **Features:**
 - 📹 **Multi-camera support**: Process multiple RTSP streams simultaneously
 - ☑️ **Camera selection**: Select which cameras to process
